@@ -70,7 +70,7 @@ class _bodyState extends State<body> {
   }
 
   Future<List<Item>> fetchItemsFromApi() async {
-    final response = await http.get(Uri.parse('https://webhostwebhost186.000webhostapp.com/getItems.php'));
+    final response = await http.get(Uri.parse('your json file link/getItems.php'));
 
     if (response.statusCode == 200) {
       List<dynamic> jsonList = json.decode(response.body);

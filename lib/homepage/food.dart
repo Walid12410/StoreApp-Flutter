@@ -65,7 +65,7 @@ class _FoodState extends State<Food> {
 
   Future<List<Item>> DrinksItemsFromApi() async {
     final response = await http.get(
-        Uri.parse('https://webhostwebhost186.000webhostapp.com/getItems.php'));
+        Uri.parse('use json file link/getItems.php'));
 
     if (response.statusCode == 200) {
       List<dynamic> jsonList = json.decode(response.body);

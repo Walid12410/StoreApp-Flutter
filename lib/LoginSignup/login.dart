@@ -25,7 +25,7 @@ class _LoginState extends State<Login> {
     final password = passwordController.text;
     bool credentialsMatch = false;
 
-    final cloudUrl = 'https://webhostwebhost186.000webhostapp.com/login.php';
+    final cloudUrl = 'put your json file link';
 
     try {
       final response = await http.get(Uri.parse(cloudUrl));

@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'addToCart.dart';
 import 'home1.dart';
 // main URL for REST pages
-const String _baseURL = 'webhostwebhost186.000webhostapp.com';
+const String _baseURL = 'put your json file link';
 
 // class to represent a row from the products table
 // note: cid is replaced by category name

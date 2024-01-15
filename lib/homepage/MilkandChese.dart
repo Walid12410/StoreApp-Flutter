@@ -65,7 +65,7 @@ class _MilkandcheseState extends State<Milkandchese> {
 
   Future<List<Item>> DrinksItemsFromApi() async {
     final response = await http.get(
-        Uri.parse('https://webhostwebhost186.000webhostapp.com/getItems.php'));
+        Uri.parse('your json file link/getItems.php'));
 
     if (response.statusCode == 200) {
       List<dynamic> jsonList = json.decode(response.body);

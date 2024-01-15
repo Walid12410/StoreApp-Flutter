@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'items.dart';
 
 // domain of your server
-const String _baseURL = 'https://webhostwebhost186.000webhostapp.com';
+const String _baseURL = 'put your json file link';
 // used to retrieve the key later
 
 class CartPage extends StatelessWidget {
